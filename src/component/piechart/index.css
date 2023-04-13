@@ -1,0 +1,16 @@
+.pie_chartDiv{
+    width: fit-content;
+    padding: 3rem 1rem;
+}
+
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
+    /* position: relative !important; */
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+
+.head{
+    display: flex;
+    text-align: center;
+}

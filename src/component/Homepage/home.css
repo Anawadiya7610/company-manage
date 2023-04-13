@@ -1,0 +1,170 @@
+.heading {
+  margin-top: 1rem !important;
+}
+.responsive_grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left_chart {
+  width: 98%;
+  /* margin: 5px 10px; */
+}
+.right_chart {
+  width: 100%;
+  /* margin: 5px 10px; */
+}
+.order_data {
+  display: flex;
+  padding: 20px auto;
+  margin: 15px auto;
+}
+.downorder_icon {
+  transform: rotate(90deg);
+}
+
+.order_datatext {
+  margin-left: 10px;
+}
+
+.order_p {
+  margin: 0;
+  font-weight: 550;
+}
+.text_span {
+  color: #737980;
+  font-weight: 450;
+}
+.timeline {
+  padding: 5px 15px 15px 20px;
+}
+
+.cardPaper {
+  width: 22%;
+}
+.card {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+/* .cardpaperSet{
+  margin-left: 10px;
+} */
+.paperheader {
+  width: 100%;
+}
+
+.chart_paper {
+  padding: 15px;
+}
+.paper_rightcharts {
+  padding: 15px 5px 15px 15px;
+}
+.liner_chartSpacing {
+  margin-top: 20px;
+}
+
+.right2 {
+  margin: 20px auto;
+}
+
+.right3 {
+  margin: 20px auto;
+}
+
+.todoapp {
+  margin-top: 20px;
+}
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3 {
+  width: 100%;
+  margin: 0;
+}
+
+.top{
+  background-color: #D1E9FC;
+  border-radius: 10px;
+  height: 15rem;
+
+}
+.top2{
+  background-color: #D0F2FF;
+  border-radius: 10px;
+  height: 15rem;
+  
+}
+.top3{
+  background-color: #FFF7CD;
+  border-radius: 10px;
+  height: 15rem;
+  
+}
+.top4{
+  background-color: #FFE7D9;
+  border-radius: 10px;
+  height: 15rem;
+  
+}
+.topPaper{
+  padding: 2rem  1rem;
+  
+}
+
+@media (max-width: 959px) {
+  .left_chart {
+    width: 100%;
+  }
+  .right1 {
+    margin-top: 20px;
+  }
+  .chart_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/* @media (max-width: 1200px) {
+
+  
+} */
+@media (max-width: 768px) {
+  .left_chart {
+    width: 100%;
+  }
+
+  .right1 {
+    margin-top: 20px;
+  }
+ 
+}
+
+@media (max-width: 600px) {
+.top,.top2,.top3,.top4{
+  width: 100%;
+  height: auto;
+  margin-bottom:20px;
+}
+.cardPaper {
+  width: 100%;
+}
+.card{
+display: flex;
+flex-direction: column;
+}
+
+.MuiGrid-root.MuiGrid-grid-sm-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-4 {
+  width: 100%;
+}
+.MuiGrid-root.MuiGrid-grid-sm-12.MuiGrid-grid-md-6.MuiGrid-grid-lg-8 {
+  width: 100%;
+}
+
+
+}

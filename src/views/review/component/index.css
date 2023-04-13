@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+.btn {
+  width: 100%;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.btn > button {
+  margin-right: 25px;
+}
+.rejStat {
+  padding: 4px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+.compStat {
+  padding: 4px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+
